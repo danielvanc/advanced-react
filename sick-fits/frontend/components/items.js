@@ -48,3 +48,5 @@ export default class items extends Component {
     );
   }
 }
+
+export { ALL_ITEMS_QUERY }
