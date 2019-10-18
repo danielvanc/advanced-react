@@ -1,2 +1,4 @@
 # advanced-react
-Repo for my advanced react course from Wes Bos
+This repo is for the app I am building on the course "Full stack advanced React and GraphQL" by Wes Bos
+
+https://advancedreact.com/
