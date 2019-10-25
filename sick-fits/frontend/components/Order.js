@@ -69,7 +69,7 @@ class Order extends Component {
               <div className="items">
                 {order.items.map(item=> (
                   <div className="order-item" key={item.id}>
-                    <img src={item.image} alt={item.title} width="50" />
+                    <img src={item.image} alt={item.title} height="50" width="50" />
                     <div className="item-details">
                       <h2>{item.title}</h2>
                       <p>Qty: {item.quantity}</p>
