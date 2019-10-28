@@ -1,6 +1,7 @@
 import formatMoney from '../lib/formatMoney';
 
 describe('formatMoney Function', () => {
+
   it('Works with franctional dollars', () => {
     expect(formatMoney(1)).toEqual('$0.01');
     expect(formatMoney(10)).toEqual('$0.10');
