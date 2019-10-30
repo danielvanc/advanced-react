@@ -9,8 +9,8 @@ const SIGNUP_MUTATION = gql`
   mutation SIGNUP_MUTATION($email: String!, $name: String!, $password: String!) {
     signup(email: $email, name: $name, password: $password) {
       id
-      email
       name
+      email
     }
   }
 `
@@ -18,8 +18,8 @@ const SIGNUP_MUTATION = gql`
 class Signup extends Component {
   state = {
     name: '',
-    password: '',
     email: '',
+    password: '',
   }
   saveToState = (e) => {
     this.setState({
@@ -66,3 +66,4 @@ class Signup extends Component {
 }
 
 export default Signup;
+export {SIGNUP_MUTATION}
