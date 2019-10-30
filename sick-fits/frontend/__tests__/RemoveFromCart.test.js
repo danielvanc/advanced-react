@@ -7,7 +7,7 @@ import RemoveFromCart, {REMOVE_FROM_CART_MUTATION} from '../components/RemoveFro
 import {CURRENT_USER_QUERY} from '../components/User'
 import { fakeUser, fakeCartItem } from '../lib/testUtils'
 
-global.alert = console.log;
+// global.alert = console.log;
 
 const mocks = [
   {
@@ -65,7 +65,7 @@ describe("<RemoveFromCart />", () => {
     wrapper.find('button').simulate('click')
     await wait();
     const res2 = await apolloClient.query({ query: CURRENT_USER_QUERY})
-    console.log(res2);
+    // console.log(res2);
     expect(res2.data.me.cart).toHaveLength(0)
   })
 })
