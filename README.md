@@ -1,4 +1,2 @@
 # advanced-react
-This repo is for the app I am building on the course "Full stack advanced React and GraphQL" by Wes Bos
-
-https://advancedreact.com/
+This repo is for the app I built in ReactJS, Apollo, Figama, GraphQL and GraphQL Yoga
