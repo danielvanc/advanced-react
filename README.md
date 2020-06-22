@@ -1,4 +1,4 @@
 # shopping app
-This repo is for the app I built in ReactJS, Apollo, Figama, GraphQL and GraphQL Yoga
+Full stack shopping cart app built in ReactJS, GraphQL, Figma, Apollo and GraphQL Yoga
 
 Demo: [https://dvanc.co/shop](https://dvanc.co/shop)
